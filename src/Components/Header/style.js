@@ -23,15 +23,9 @@ export const NavBar = styled.div`
   z-index: 1;
   position: absolute;
   margin-bottom: 10px;
-  padding-left: 5px;
 
   @media (min-width: 768px) {
     height: 50px;
-    padding-left: 15px;
-  }
-
-  @media (min-width: 1024px) {
-    padding-left: 15px;
   }
 `;
 
@@ -41,8 +35,9 @@ export const ImgProfile = styled.div`
     object-fit: cover;
     width: 100vw;
     height: 50vh;
-    mask-image: linear-gradient(to top, transparent 0%, #ebe4dc 5%);
+    mask-image: linear-gradient(to top, transparent 0%, #F9D3C0 5%);
   }
+
   @media (min-width: 768px) {
     img {
       height: 75vh;
@@ -52,11 +47,13 @@ export const ImgProfile = styled.div`
 
 export const Button = styled.button`
   display: flex;
+  align-items: center;
   background-color: transparent;
   border: none;
   cursor: pointer;
   text-decoration: none;
   color: #543f33;
+  height: 20px;
 
   :hover {
     color: #e8af79;
@@ -68,6 +65,7 @@ export const Button = styled.button`
   }
 
   @media (min-width: 768px) {
+    height: 50px;
     span {
       font-size: 22px;
     }

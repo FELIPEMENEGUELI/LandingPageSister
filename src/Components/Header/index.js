@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import * as Styles from "./style.js";
-import { GetImgProfile, GetNAvBar } from "../../Mock/index.js";
+import { GetImgProfile, GetNAvBar } from "../../Archives/index.js";
 import { Link } from "react-router-dom";
 
 export function Header() {

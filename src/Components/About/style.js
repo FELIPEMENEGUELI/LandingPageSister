@@ -12,7 +12,7 @@ export const Text = styled.div`
   h3 {
     font-size: 22px;
     margin: 0 0 8px 0;
-    color: #73503f;
+    color: #543F33;
   }
 
   div {
@@ -21,7 +21,7 @@ export const Text = styled.div`
 
   p {
     font-weight: bold;
-    color: #73503f;
+    color: #543F33;
     font-size: 12px;
     margin-top: 15px;
   }
@@ -50,7 +50,7 @@ export const StyleImg = styled.div`
     object-fit: cover;
     position: relative;
     aspect-ratio: 1;
-    filter: drop-shadow(1px 1px 6px #73503f);
+    filter: drop-shadow(1px 1px 6px #543F33);
   }
 
   @media (min-width: 768px) {
@@ -64,6 +64,6 @@ export const StyleImg = styled.div`
 
 export const Separator = styled.div`
   max-width: 60px;
-  border: 1px solid #73503f;
-  background-color: #73503f;
+  border: 1px solid #543F33;
+  background-color: #543F33;
 `;

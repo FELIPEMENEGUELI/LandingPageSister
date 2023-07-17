@@ -1,6 +1,6 @@
 import * as Styles from "./style.js";
 import React from "react";
-import { GetImagesNoivas } from "../../Mock/index.js";
+import { GetImagesNoivas } from "../../Archives/index.js";
 
 export default function PageNoivas() {
   const infoImgNoiva = GetImagesNoivas;

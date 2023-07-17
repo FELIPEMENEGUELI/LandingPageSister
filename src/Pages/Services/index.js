@@ -1,6 +1,6 @@
 import React from "react";
 import * as Styles from "./style";
-import { GetImagesServices } from "../../Mock";
+import { GetImagesServices } from "../../Archives";
 
 export function Services() {
   const infoService = GetImagesServices;

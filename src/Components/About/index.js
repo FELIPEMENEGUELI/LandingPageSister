@@ -1,6 +1,6 @@
 import React from "react";
 import * as Styles from "./style";
-import { GetAbout } from "../../Mock";
+import { GetAbout } from "../../Archives";
 
 export function About() {
   const infoAbout = GetAbout;
